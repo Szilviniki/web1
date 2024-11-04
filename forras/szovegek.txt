@@ -1,0 +1,70 @@
+Navigációs rész
+---------------
+Főoldal
+Áraink
+Galéria
+Rendelés
+
+
+"Főoldal" doboz
+---------------
+
+Üdvözöljük a kávéházunk weboldalán!
+
+A kínálatunkban a kávék mellett többfajta ital is megtalálható.
+A weboldalunkon lehetősége van az italját előrendelni, így a boltunkba érve azt azonnal és frissen kézhez kaphatja.
+Nyitvatartás:
+hétfő - péntek: 6-18 óráig
+hétvégén és ünnepnapokon: 6-18 óráig
+Elérhetőségek:
+cím: Egyetem u. 10. Veszprém, 8200
+telefonszám: (+36) 30 893 96 37
+e-mail cím: info@kavehaz.hu
+Tekintse meg a promóciós videónkat!
+
+https://youtu.be/nyDnQQSUfL0
+
+
+"Áraink" doboz
+--------------
+
+Áraink
+
+Ital fajta		Név				Ár
+kávé			espresso		240 Ft
+				cappuccino		270 Ft
+				café au lait	320 Ft
+				macchiato		390 Ft
+				török kávé		400 Ft
+tea				gyümölcstea		240 Ft
+				fekete tea		250 Ft
+				zöld tea		230 Ft
+egyéb			forró csoki		350 Ft
+
+
+"Galéria" doboz
+---------------
+
+Galéria
+
+Espresso
+Cappuccino
+Café au lait
+
+
+"Rendelés" doboz
+----------------
+
+Rendelés
+
+Személyes adatok
+Név:
+E-mail cím:
+
+Rendelési adatok
+Ital:
+Érkezés időpontja:
+Fogyasztás:	Helyben fogyasztom	Elvitelre kérem
+Ide írja le a megjegyzéseit...
+Az adatkezelési nyilatkozatot elfogadom.
+Küldés

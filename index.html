@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Kávézó</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#fooldal">Főoldal</a></li>
+        <li><a href="#araink">Áraink</a></li>
+        <li><a href="#galeria">Galéria</a></li>
+        <li><a href="#rendeles">Rendelés</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="fooldal">
+        <h2>Üdvözöljük kávéházunk weboldalás</h2>
+        <p>A kínálatunkban a kávék mellett többfajta ital is megtalálható.</p>
+        <p>A weboldalunkon lehetősége van az italját előrendelni, így a boltunkba érve azt azonnal és frissen kézhez
+            kaphatja.</p>
+        <b>Nyitvatartás:</b>
+        <ul>
+            <li>hétfő - péntek: 6-18 óráig</li>
+            <li>hétvégén és ünnepnapokon: 6-18 óráig</li>
+        </ul>
+        <b> Elérhetőségek:</b>
+        <ul>
+            <li>cím: Egyetem u. 10. Veszprém, 8200</li>
+            <li>telefonszám: (+36) 30 893 96 37</li>
+            <li>e-mail cím: <a href="mailto:info@kavehaz.hu">info@kavehaz.hu</a></li>
+        </ul>
+        <p>Tekintse meg a promóciós videónkat!</p>
+        <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/nyDnQQSUfL0?si=QntI28tNFw27lmQf&amp;controls=0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="araink">
+        <h2>Áraink</h2>
+        <table>
+            <tr>
+                <th>Ital fajta</th>
+                <th>Név</th>
+                <th>Ár</th>
+            </tr>
+            <tr>
+                <td rowspan="5">kávé</td>
+                <td>espresso</td>
+                <td>240 ft</td>
+            </tr>
+            <tr>
+                <td>cappuccino</td>
+                <td>270 ft</td>
+            </tr>
+            <tr>
+                <td>café au lait</td>
+                <td>320 ft</td>
+            </tr>
+            <tr>
+                <td>macchiato</td>
+                <td>390 ft</td>
+            </tr>
+            <tr>
+                <td>török kávé</td>
+                <td>400 ft</td>
+            </tr>
+            <tr>
+                <td rowspan="3">tea</td>
+                <td>gyümölcsöstea</td>
+                <td>240 ft</td>
+            </tr>
+            <tr>
+                <td>fekete tea</td>
+                <td>250 ft</td>
+            </tr>
+            <tr>
+                <td>zöld tea</td>
+                <td>230 ft</td>
+            </tr>
+            <tr></tr>
+        </table>
+    </section>
+    <section id="galeria">
+        <h2>Galéria</h2>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="forras/espresso.jpg" class="d-block w-100" alt="Espresso">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Espresso</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="forras/cappuccino.jpg" class="d-block w-100" alt="Cappuccino">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Cappuccino</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="forras/cafe_au_lait.jpg" class="d-block w-100" alt="Cafe Au Lait">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Cafe Au Lait</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="rendeles">
+        <h2>Rendelés</h2>
+        <form>
+            <fieldset>
+                <legend><h3>Személyes adatok</h3></legend>
+                <label for="name">
+                    Név:
+                </label>
+                <input id="name" type="text">
+                <br>
+                <label for="email">
+                    Email cím:
+                </label>
+                <input id="email" type="email">
+            </fieldset>
+            <fieldset>
+                <legend> <h3>Rendelési adatok</h3></legend>
+                <label for="drink">
+                    Ital:
+                </label>
+                <select id="drink">
+                    <optgroup label="kávé">
+                        <option>espresso</option>
+                        <option>cappuccino</option>
+                        <option>café au lait</option>
+                        <option>macchiato</option>
+                        <option>török kávé</option>
+                    </optgroup>
+                    <optgroup label="tea">
+                        <option>gyümölcstea</option>
+                        <option>fekete tea</option>
+                        <option>zöld tea</option>
+                    </optgroup>
+                    <optgroup label="egyéb">
+                        <option>forrócsoki</option>
+                    </optgroup>
+                </select>
+                <br>
+                <label>Dátum</label>
+                <input type="date" min="2024-11-03">
+                <label>Idő:</label>
+                <input type="time" min="09:00:00" max="18:00:00">
+                <br>
+                <label>Fogyasztás:</label>
+                <input type="radio" name="fogyasztas" id="helyben" checked>
+                <label for="helyben">Helyben fogyasztom</label>
+                <input type="radio" name="fogyasztas" id="elvitel">
+                <label for="elvitel">Elvitelre kérem</label>
+                <textarea rows="5" cols="40">Ide írja a megjegyzéseit...</textarea>
+                <br>
+                <input type="checkbox" id="adatkezeles">
+                <label for="adatkezeles">Az adatkezelési nyilatkozatott elfogadom.</label>
+                <br>
+                <button>Küldés</button>
+            </fieldset>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>Szilvás Nikolett, I32BC6</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
